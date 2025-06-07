@@ -1,0 +1,99 @@
+.about-section {
+    width: 100%;
+    padding: 48px 0 56px 0;
+    text-align: center;
+    background: linear-gradient(90deg,
+            #f7e5f7 0%, #e8e0f4 20%, #fff 50%, #e8e0f4 80%, #f7e5f7 100%),
+        repeating-linear-gradient(0deg, transparent, transparent 7px, #e3d4ef33 8px),
+        repeating-linear-gradient(90deg, transparent, transparent 7px, #e3d4ef33 8px);
+    background-blend-mode: normal;
+}
+
+.about-container {
+    max-width: 84%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.about-label {
+    color: #B13BA3;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    display: inline-block;
+    border-bottom: 2px solid rgba(177, 59, 163, 0.2);
+    padding-bottom: 4px;
+}
+
+.about-title {
+    margin: 0 0 34px 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.25;
+}
+
+.about-video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.about-video-border {
+    border-radius: 50%;
+    padding: 18px;
+    border: 3px solid #e3d4ef;
+    outline: 3px solid #e3d4ef;
+    outline-offset: 7px;
+    display: inline-block;
+    position: relative;
+}
+
+.about-video-img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #fff;
+}
+
+.about-video-play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.about-desc {
+    max-width: 780px;
+    margin: 0 auto 32px auto;
+    font-size: 1rem;
+    color: #5d5d6d;
+}
+
+.about-btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #B13BA3 0%, #c772c0 100%);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.08rem;
+    padding: 12px 38px 12px 32px;
+    border-radius: 32px;
+    text-decoration: none;
+    transition: background 0.18s;
+}
+
+.about-btn:hover {
+    background: linear-gradient(90deg, #c772c0 0%, #B13BA3 100%);
+}
+
+.about-btn-arrow {
+    margin-left: 12px;
+    font-size: 1.2em;
+    vertical-align: middle;
+}

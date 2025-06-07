@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-sustavi Landing Page</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/service-section.css">
+    <link rel="stylesheet" href="./styles/sell-section.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/maintenance.css">
+    <link rel="stylesheet" href="./styles/web-hosting.css">
+    <link rel="stylesheet" href="./styles/our-works.css">
+    <link rel="stylesheet" href="./styles/news.css">
+    <link rel="stylesheet" href="./styles/business-solution.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">e-sustavi</div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Solutions<i class="fas fa-angle-down"></i></li>
+                    <li>Services <i class="fas fa-angle-down"></i></li>
+                    <li>News </li>
+                    <li>Reference</li>
+                    <li>About</li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="btn btn-outline"><i class="fas fa-headset"></i> Support</button>
+                <div style="display: flex; align-items: center; gap: 2px;">
+                    <button class="btn btn-primary"><i class="fas fa-comments"></i></button>
+                    Let's talk
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- section 1 -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <div class="tag">Business Digitization</div>
+                <h1>Digitization of <br> Business is Future</h1>
+                <p>Together with our partners, we present you with the latest ICT technology solutions for your business
+                    and
+                    provide tools for unhindered growth and development.</p>
+                <button class="btn btn-primary"><i class="fas fa-play-circle"></i> See the process for free</button>
+            </div>
+            <div class="hero-image">
+                <img src="./assets/img-2.jpg" alt="Smiling Man with Tablet" />
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <i class="fas fa-globe"></i>
+                    <div>
+                        <h3>70+</h3>
+                        <p>Made websites and webshops</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-cash-register"></i>
+                    <div>
+                        <h3>100+</h3>
+                        <p>Companies using fiscal cash registers</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-building"></i>
+                    <div>
+                        <h3>500+</h3>
+                        <p>Companies use our business solutions</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-tools"></i>
+                    <div>
+                        <h3>2500+</h3>
+                        <p>PC and other IT equipment services performed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- news 2 -->
+    <section>
+        <div class="news-container">
+            <h1 class="main-title">News and notifications</h1>
+            <p class="subtitle">for our users</p>
+            <div class="carousel-wrapper">
+                <button class="carousel-btn left" id="carousel-prev">
+                    <span>&larr;</span>
+                </button>
+                <div class="carousel-viewport">
+                    <div class="carousel" id="carousel">
+                        <!-- Cards will be rendered here by JS -->
+                    </div>
+                </div>
+                <button class="carousel-btn right" id="carousel-next">
+                    <span>&rarr;</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about section -->
+
+    <section class="about-section">
+        <div class="about-container">
+            <div class="about-label">About e-Sistemi d.o.o.</div>
+            <h1 class="about-title">
+                e-Sistemi d.o.o. is a Croatian IT company established in 2008,
+                succeeding Intrasoft d.o.o., specializing in modern business
+                software solutions and integration.
+            </h1>
+            <div class="about-video-wrapper">
+                <div class="about-video-border">
+                    <img class="about-video-img"
+                        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=facearea&w=400&h=400&q=80"
+                        alt="Company hardware">
+                    <button class="about-video-play">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="24" fill="#B13BA3" />
+                            <polygon points="20,16 34,24 20,32" fill="white" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="about-desc">
+                Our services consist of preparing companies for the digitalization of their business processes
+                by introducing Luceed ERP or Odoo ERP/CRM software solutions, website development, creation of
+                webshops integrated with Luceed/Odoo ERP systems, hosting solutions and business optimization
+                in more mature business phases.
+            </div>
+            <a class="about-btn" href="#">More About Us <span class="about-btn-arrow">&rarr;</span></a>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="services-section">
+        <div class="service-container">
+            <h2 class="section-title">How can we help you?</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon" style="color:#ff8c8c;">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Business Digitization</h3>
+                    <p>
+                        Through our experience and the tools we have, we help you digitize and optimize your business
+                        with
+                        the latest technical and software solutions.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="color:#3eb3e7;">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Technical Support</h3>
+                    <p>
+                        Our technicians assist our customers by phone, remote control, or in the field. Access quality
+                        technical and customer support very quickly.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="color:#00d1b2;">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Website or Webshops</h3>
+                    <p>
+                        We create websites that are easy to manage. We create tailor-made webshops integrated with
+                        Luceed or
+                        Odoo ERP systems.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="color:#89caff;">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Domain and Hosting</h3>
+                    <p>
+                        We offer optimized server installations in a Croatian data center for your websites, emails, and
+                        cloud services, ensuring easier web application and website use.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Social marquee part -->
+    <div class="pink-bar">
+        <marquee behavior="scroll" direction="left" scrollamount="8" onmouseover="this.stop();"
+            onmouseout="this.start();">
+            <div class="social-row">
+                <a class="social-link" href="#">
+                    <i class="fa-brands fa-x-twitter"></i> Twitter
+                </a>
+                <span class="arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                <a class="social-link" href="#">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <span class="arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                <a class="social-link" href="#">
+                    <i class="fa-brands fa-youtube"></i> YouTube
+                </a>
+                <span class="arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                <a class="social-link" href="#">
+                    <i class="fa-brands fa-facebook"></i> Facebook
+                </a>
+                <span class="arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                <a class="social-link" href="#">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+                <span class="arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                <a class="social-link" href="#">
+                    <i class="fa-brands fa-threads"></i> Threads
+                </a>
+            </div>
+        </marquee>
+    </div>
+
+    <!-- web hosting section  -->
+    <section>
+        <div class="web-hosting-container">
+            <div class="web-hosting-card">
+                <div class="web-hosting-img">
+                    <!-- Use the provided image (image1) -->
+                    <img src="./assets/img-2.jpg" alt="Server Illustration">
+                </div>
+                <div class="web-hosting-content">
+                    <h1>
+                        Web Hosting &amp; Domain Registration
+                    </h1>
+                    <p>
+                        Host your websites, emails, and other cloud services on our servers.
+                    </p>
+                    <a href="#" class="learn-btn">
+                        Learn More
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sel section -->
+    <section class="sell-section">
+        <div class="sell-container">
+            <div class="sell-section-card">
+                <div class="sell-section-content">
+                    <h1>
+                        Sale of cash registers, fiscal programs and POS printers
+                    </h1>
+                    <p>
+                        We sell modern PC/tablet/touch cash registers with a POS printer and Luceed or Odoo software
+                        solution.
+                    </p>
+                    <a href="#" class="learn-btn">
+                        Learn More
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="sell-section-img">
+                    <!-- Use the provided image (image1) -->
+                    <img src="./assets/img-2.jpg" alt="Server Illustration">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- maintenance section -->
+    <section class="maintenance-section">
+        <div class="maintenance-container">
+            <div class="maintenance-card">
+
+                <div class="maintenance-img">
+                    <!-- Use the provided image (image1) -->
+                    <img src="./assets/img-1.jpg" alt="Server Illustration">
+                </div>
+
+                <div class="maintenance-content">
+                    <h1>
+                        Service and maintenance of computers and IT <br> equipment
+                    </h1>
+                    <p>
+                        In our service, we provide services of upgrading, fault diagnosis and repair of PC computers and
+                        IT equipment.
+                    </p>
+                    <a href="#" class="learn-btn">
+                        Learn More
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>News and Notifications Carousel</title>
+    <link rel="stylesheet" href="./styles/news.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="main-title">News and notifications</h1>
+        <p class="subtitle">for our users</p>
+        <div class="carousel-wrapper">
+            <button class="carousel-btn left" id="carousel-prev">
+                <span>&larr;</span>
+            </button>
+            <div class="carousel-viewport">
+                <div class="carousel" id="carousel">
+                    <!-- Cards will be rendered here by JS -->
+                </div>
+            </div>
+            <button class="carousel-btn right" id="carousel-next">
+                <span>&rarr;</span>
+            </button>
+        </div>
+    </div>
+    <div class="bottom-bg"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
