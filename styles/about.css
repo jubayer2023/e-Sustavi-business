@@ -7,6 +7,7 @@
         repeating-linear-gradient(0deg, transparent, transparent 7px, #e3d4ef33 8px),
         repeating-linear-gradient(90deg, transparent, transparent 7px, #e3d4ef33 8px);
     background-blend-mode: normal;
+    z-index: -100;
 }
 
 .about-container {
@@ -40,26 +41,42 @@
     margin-bottom: 36px;
 }
 
-.about-video-border {
-    border-radius: 50%;
-    padding: 18px;
-    border: 3px solid #e3d4ef;
-    outline: 3px solid #e3d4ef;
-    outline-offset: 7px;
-    display: inline-block;
+.about-video-border {}
+
+.about-image-container {
     position: relative;
+    width: 350px;
+    height: 350px;
+    /* z-index: -10; */
+}
+
+.about-back-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    /* position: relative; */
+    /* box-shadow: 0 0 0 10px #fff; */
 }
 
 .about-video-img {
-    width: 260px;
-    height: 260px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 0 0 10px #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-video-play {
     position: absolute;
+    z-index: 10;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);

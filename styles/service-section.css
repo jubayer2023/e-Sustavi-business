@@ -59,15 +59,21 @@
 }
 
 .service-icon {
-    font-size: 2.6rem;
-    margin-bottom: 24px;
+    /* font-size: 2.6rem; */
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
+.service-icon img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
 .service-card h3 {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 600;
     margin-bottom: 14px;
     color: #fff;

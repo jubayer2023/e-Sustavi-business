@@ -1,12 +1,8 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', Arial, sans-serif;
-    background: #fff;
-    color: #181818;
+.our-works-section {
+    width: 100%;
 }
 
-.container {
+.our-works-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +13,7 @@ body {
     box-sizing: border-box;
 }
 
-.image-side {
+.our-works-image-side {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -25,7 +21,7 @@ body {
     height: auto;
 }
 
-.image-side img {
+.our-works-image-side img {
     width: 100%;
     height: 400px;
     object-fit: cover;
@@ -35,18 +31,16 @@ body {
     background: #f3f3f3;
 }
 
-.content-side {
-
+.our-works-content-side {
     width: 50%;
     height: 400px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 22px;
 }
 
-.content-side h1 {
+.our-works-content-side h1 {
     font-size: 2.5rem;
     font-weight: 700;
     margin: 0 0 10px 0;
@@ -54,39 +48,28 @@ body {
     letter-spacing: -1px;
 }
 
-.arrow-svg {
-    margin-bottom: 8px;
-    width: 340px;
-    height: 40px;
-    display: block;
-    max-width: 100%;
-}
-
-.features {
+.our-works-features {
     list-style: none;
     padding: 0;
     margin: 0 0 25px 0;
     display: flex;
     flex-direction: column;
-
     gap: 24px;
 }
 
-.features li {
+.our-works-features li {
     display: flex;
     align-items: flex-start;
     font-size: 1.12rem;
     line-height: 1.6;
 }
 
-.icon {
+.our-works-icon {
     color: #f2fcf4;
     background: #199e3a;
     border-radius: 4px;
     margin-right: 13px;
     margin-top: 2px;
-    /* width: 1.5em;
-    height: 1.5em; */
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +78,7 @@ body {
     padding: 4px;
 }
 
-.cta-btn {
+.our-works-cta-btn {
     display: inline-flex;
     align-items: center;
     background: #181818;
@@ -114,26 +97,26 @@ body {
     gap: 12px;
 }
 
-.cta-btn:hover,
-.cta-btn:focus {
+.our-works-cta-btn:hover,
+.our-works-cta-btn:focus {
     background: #6b246b;
 }
 
 @media (max-width: 950px) {
-    .container {
+    .our-works-container {
         flex-direction: column;
         gap: 36px;
         padding: 30px 3vw;
     }
 
-    .image-side,
-    .content-side {
+    .our-works-image-side,
+    .our-works-content-side {
         justify-content: center;
         align-items: center;
         text-align: center;
     }
 
-    .content-side {
+    .our-works-content-side {
         max-width: 100%;
         min-width: 0;
     }

@@ -1,32 +1,32 @@
 // Demo data
 const cards = [
     {
-        img: "./assets/img-1.jpg",
+        img: "./assets/news-1.png",
         title: "Odoo Roadshow 2023 held in Zagreb",
         date: "April 05, 2023"
     },
     {
-        img: "./assets/img-2.jpg",
+        img: "./assets/news-2.png",
         title: "Odoo Roadshow 2023 held in Zagreb",
         date: "April 05, 2023"
     },
     {
-        img: "./assets/img-3.jpg",
+        img: "./assets/news-3.png",
         title: "Odoo Roadshow 2023 held in Zagreb",
         date: "April 05, 2023"
     },
     {
-        img: "./assets/img-1.jpg",
+        img: "./assets/news-4.png",
         title: "Odoo Roadshow 2023 held in Zagreb",
         date: "April 05, 2023"
     },
     {
-        img: "./assets/img-2.jpg",
+        img: "./assets/news-1.png",
         title: "Odoo Roadshow 2023 held in Zagreb",
         date: "April 05, 2023"
     },
     {
-        img: "./assets/img-3.jpg",
+        img: "./assets/news-2.png",
         title: "Odoo Roadshow 2023 held in Zagreb",
         date: "April 05, 2023"
     }
